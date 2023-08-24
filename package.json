@@ -1,0 +1,30 @@
+{
+	"name": "elite-fashion",
+	"version": "1.0.0",
+	"description": "ecommerce ",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon server.js"
+	},
+	"author": "Kabir",
+	"license": "ISC",
+	"dependencies": {
+		"bcrypt": "^5.1.0",
+		"cloudinary": "^1.33.0",
+		"cookie-parser": "^1.4.6",
+		"cors": "^2.8.5",
+		"dayjs": "^1.11.7",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"express-fileupload": "^1.4.0",
+		"googleapis": "^111.0.0",
+		"jsonwebtoken": "^9.0.0",
+		"mongoose": "^6.8.2",
+		"morgan": "^1.10.0",
+		"nodemailer": "^6.8.0",
+		"nodemon": "^2.0.20",
+		"socket.io": "^4.6.1",
+		"stripe": "^11.10.0"
+	}
+}
